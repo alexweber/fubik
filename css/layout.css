@@ -1,0 +1,56 @@
+#site-wrapper {
+  margin: 0;
+}
+
+#page-wrapper {
+  float: left;
+  width: 100%;
+  margin-right: -100%;
+  padding: 0;
+}
+.sidebar {
+  float: left;
+}
+#sidebar-second {
+  float: right;
+}
+
+.two-sidebars #page,
+.sidebar-left #page {
+  margin-left: 270px;     /* LEFT value + 50px */
+}
+#sidebar-first {
+  width: 225px;           /* LEFT value */
+	margin-right: -225px;    /* negative LEFT value */
+}
+.two-sidebars #page,
+.sidebar-right #page {
+  margin-right: 270px;    /* RIGHT value + 50px */
+}
+#sidebar-second {
+  width: 225px;           /* RIGHT value */
+}
+
+.two-sidebars #page-title,
+.sidebar-right #page-title {
+  margin-right: 245px;    /* RIGHT value + 20px */
+}
+
+#sidebar-first {
+  margin-left: 30px;
+}
+
+#sidebar-second {
+  margin-right: 30px;
+}
+
+#footer {
+  clear: both;
+}
+
+#sidebar-first,
+#sidebar-second {
+    background: none repeat scroll 0 0 #F4F4F4;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px 3px 3px 3px;
+}

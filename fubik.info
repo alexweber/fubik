@@ -1,0 +1,7 @@
+name = "Fubik"
+description = "Clean admin theme."
+base theme = rubik
+core = "6.x"
+engine = "phptemplate"
+
+stylesheets[all][] = css/layout.css
