@@ -5,3 +5,4 @@ core = "6.x"
 engine = "phptemplate"
 
 stylesheets[all][] = css/layout.css
+stylesheets[all][] = css/fubik_admin.css

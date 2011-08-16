@@ -1,0 +1,65 @@
+/**
+ * @file Custom Admin Fixes for Fubik
+*/
+
+/* Fix compatibility with Toolbar module */
+div#toolbar-toolbar div.depth-0 span.icon {
+  display: inline;
+  height: auto;
+  width: auto;
+}
+
+/* Active-trail for Webmaster menu */
+#block-menu-menu-webmaster ul.menu li.active-trail {
+  background: #dedede;
+}
+
+/* Action Icons */
+div.view-header a.node-add {
+  background: url('../images/ico-add.gif') 0 1px no-repeat;
+  padding-left: 20px;
+}
+
+div.view-header a.page-view {
+  background: url('../images/ico-find.gif') 0 1px no-repeat;
+  padding-left: 20px;
+  float: right;
+}
+
+div.view-footer a.topo {
+  float: right;
+  margin-bottom: -10px;
+  position: relative;
+  top: -10px;
+}
+
+body.page-admin th.views-field-edit-node,
+body.page-admin th.views-field-delete-node {
+  text-align: center;
+}
+
+body.page-admin td.views-field-title,
+body.page-admin td.views-field-edit-node,
+body.page-admin td.views-field-delete-node {
+  vertical-align: middle;
+}
+
+body.page-admin td.views-field-edit-node a,
+body.page-admin td.views-field-delete-node a {
+  text-indent: -9999px;
+  overflow: hidden;
+  background: url('../images/ico-delete.gif') 0 0 no-repeat;
+  display: block;
+  height: 16px;
+  width: 16px;
+  margin: 0 auto;
+}
+
+body.page-admin td.views-field-edit-node a {
+  background: url('../images/ico-edit.gif') 0 0 no-repeat;
+}
+
+body.page-admin div.view-empty {
+  padding: 4px 0 0 6px;
+  font-size: 1.1em;
+}
