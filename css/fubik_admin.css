@@ -63,3 +63,50 @@ body.page-admin div.view-empty {
   padding: 4px 0 0 6px;
   font-size: 1.1em;
 }
+
+/* Icons for Webmaster Menu */
+
+#block-menu-menu-webmaster ul.menu li a {
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  display: block;
+  height: 22px;
+  padding-left: 32px;
+  padding-top: 2px;
+}
+
+#block-menu-menu-webmaster ul.menu li.videos a {
+  background-image: url('../images/menu-videos.png');
+}
+
+#block-menu-menu-webmaster ul.menu li.flash_da_home a {
+  background-image: url('../images/menu-flash.png');
+}
+
+#block-menu-menu-webmaster ul.menu li.faq a {
+  background-image: url('../images/menu-faq.png');
+}
+
+#block-menu-menu-webmaster ul.menu li.destaques a {
+  background-image: url('../images/menu-destaques.png');
+}
+
+#block-menu-menu-webmaster ul.menu li.noticias a {
+  background-image: url('../images/menu-noticias.png');
+}
+
+#block-menu-menu-webmaster ul.menu li.clientes a {
+  background-image: url('../images/menu-clientes.png');
+}
+
+#block-menu-menu-webmaster ul.menu li.servicos a {
+  background-image: url('../images/menu-servicos.png');
+}
+
+#block-menu-menu-webmaster ul.menu li.fornecedores a {
+  background-image: url('../images/menu-fornecedores.png');
+}
+
+#block-menu-menu-webmaster ul.menu li.produtos a {
+  background-image: url('../images/menu-produtos.png');
+}
