@@ -75,6 +75,10 @@ body.page-admin div.view-empty {
   padding-top: 2px;
 }
 
+#block-menu-menu-webmaster ul.menu li.home a {
+  background-image: url('../images/menu-home.png');
+}
+
 #block-menu-menu-webmaster ul.menu li.videos a {
   background-image: url('../images/menu-videos.png');
 }
