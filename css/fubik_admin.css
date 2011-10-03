@@ -79,7 +79,8 @@ body.page-admin div.view-empty {
   background-image: url('../images/menu-videos.png');
 }
 
-#block-menu-menu-webmaster ul.menu li.flash_da_home a {
+#block-menu-menu-webmaster ul.menu li.flash_da_home a,
+#block-menu-menu-webmaster ul.menu li.flash a {
   background-image: url('../images/menu-flash.png');
 }
 
@@ -91,8 +92,18 @@ body.page-admin div.view-empty {
   background-image: url('../images/menu-destaques.png');
 }
 
-#block-menu-menu-webmaster ul.menu li.noticias a {
-  background-image: url('../images/menu-noticias.png');
+#block-menu-menu-webmaster ul.menu li.noticias a,
+#block-menu-menu-webmaster ul.menu li.news a {
+  background-image: url('../images/menu-news.png');
+}
+
+#block-menu-menu-webmaster ul.menu li.blog a {
+  background-image: url('../images/menu-blog.png');
+}
+
+#block-menu-menu-webmaster ul.menu li.configuracoes a,
+#block-menu-menu-webmaster ul.menu li.settings a {
+  background-image: url('../images/menu-settings.png');
 }
 
 #block-menu-menu-webmaster ul.menu li.clientes a {
