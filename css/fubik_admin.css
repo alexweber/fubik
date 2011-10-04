@@ -9,11 +9,6 @@ div#toolbar-toolbar div.depth-0 span.icon {
   width: auto;
 }
 
-/* Active-trail for Webmaster menu */
-#block-menu-menu-webmaster ul.menu li.active-trail {
-  background: #dedede;
-}
-
 /* Action Icons */
 div.view-header a.node-add {
   background: url('../images/ico-add.gif') 0 1px no-repeat;
@@ -33,15 +28,24 @@ div.view-footer a.topo {
   top: -10px;
 }
 
+body.page-admin th.views-field-tid,
+body.page-admin th.views-field-comment-count,
 body.page-admin th.views-field-edit-node,
 body.page-admin th.views-field-delete-node {
   text-align: center;
 }
 
+body.page-admin td.views-field-tid,
+body.page-admin td.views-field-comment-count,
 body.page-admin td.views-field-title,
 body.page-admin td.views-field-edit-node,
 body.page-admin td.views-field-delete-node {
   vertical-align: middle;
+}
+
+body.page-admin td.views-field-tid,
+body.page-admin td.views-field-comment-count {
+  text-align: center;
 }
 
 body.page-admin td.views-field-edit-node a,
@@ -62,6 +66,11 @@ body.page-admin td.views-field-edit-node a {
 body.page-admin div.view-empty {
   padding: 4px 0 0 6px;
   font-size: 1.1em;
+}
+
+/* Active-trail for Webmaster menu */
+#block-menu-menu-webmaster ul.menu li.active-trail {
+  background: #dedede;
 }
 
 /* Icons for Webmaster Menu */

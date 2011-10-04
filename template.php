@@ -3,7 +3,6 @@
 /*
  * 	Add custom classes to menu item
  */
-
 function fubik_menu_item($link, $has_children, $menu = '', $in_active_trail = FALSE, $extra_class = NULL) {
   $class = ($menu ? 'expanded' : ($has_children ? 'collapsed' : 'leaf'));
   if (!empty($extra_class)) {
@@ -15,6 +14,15 @@ function fubik_menu_item($link, $has_children, $menu = '', $in_active_trail = FA
   // New line added to get unique classes for each menu item
   $css_class = fubik_id_safe(str_replace(' ', '_', strip_tags($link)));
   return '<li class="' . $class . ' ' . $css_class . '">' . $link . $menu . "</li>\n";
+}
+
+/**
+ * Add span to menu item link text
+ */
+function fubik_menu_item_link($link) {
+  $link['localized_options']['attributes']['class'] = 'link-' . (isset($link['mlid']) ? $link['mlid'] : '');
+  $link['localized_options']['html'] = true;
+  return l('<span>'.$link['title'].'</span>', $link['href'], $link['localized_options']);
 }
 
 /*
