@@ -116,6 +116,10 @@ body.page-admin div.view-empty {
   background-image: url('../images/menu-blog.png');
 }
 
+#block-menu-menu-webmaster ul.menu li.reports a {
+  background-image: url('../images/menu-reports.png');
+}
+
 #block-menu-menu-webmaster ul.menu li.configuracoes a,
 #block-menu-menu-webmaster ul.menu li.settings a {
   background-image: url('../images/menu-settings.png');
@@ -154,16 +158,14 @@ div.fubik_admin table td {
 }
 
 div.fubik_admin a.fubik_admin_link {
-  display: block;
-  margin: 0 auto;
-  height: 64px;
-  width: 64px;
-  text-indent: -9999px;
-  overflow: hidden;
-  line-height: 0;
-  font-size: 0;
   background-position: 0 0;
   background-repeat: no-repeat;
+  display: block;
+  height: 10px;
+  margin: 0 auto;
+  padding-top: 68px;
+  width: 64px;
+  font-size: 14px;
 }
 
 div.fubik_admin a.fubik_admin_link.home {
@@ -181,6 +183,10 @@ div.fubik_admin a.fubik_admin_link.jobs {
 
 div.fubik_admin a.fubik_admin_link.faq {
   background-image: url('../images/ico-faq.png');
+}
+
+div.fubik_admin a.fubik_admin_link.reports {
+  background-image: url('../images/ico-reports.png');
 }
 
 div.fubik_admin a.fubik_admin_link.settings {
