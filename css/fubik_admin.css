@@ -153,8 +153,26 @@ div.fubik_admin table {
 }
 
 div.fubik_admin table td {
-  padding: 20px;
+  padding: 10px;
   vertical-align: middle;
+  border: 0 none;
+}
+
+div.fubik_admin table td div {
+  height: 86px;
+  padding: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  border-collapse: collapse;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+}
+
+div.fubik_admin table td div:hover {
+  border-color: #CCCCCC #DDDDDD #EEEEEE;
+  background: rgba(243, 243, 243, 0.4);
 }
 
 div.fubik_admin a.fubik_admin_link {
