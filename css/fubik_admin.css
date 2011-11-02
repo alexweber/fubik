@@ -9,6 +9,27 @@ div#toolbar-toolbar div.depth-0 span.icon {
   width: auto;
 }
 
+/* On / Off Icons */
+
+a.fubik_ajax {
+  display: block;
+  text-indent: -9999px;
+  overflow: hidden;
+  line-height: 0;
+  font-size: 0;
+  margin: 0 auto;
+}
+
+a.fubik_ajax.ajax_promote {
+  height: 10px;
+  width: 27px;
+  background: url('../images/status.png') 0 0 no-repeat;
+}
+
+a.fubik_ajax.ajax_promote.On {
+  background-position: 0 -10px;
+}
+
 /* Action Icons */
 div.view-header a.node-add {
   background: url('../images/ico-add.gif') 0 1px no-repeat;
@@ -30,6 +51,8 @@ div.view-footer a.topo {
 
 body.page-admin th.views-field-tid,
 body.page-admin th.views-field-comment-count,
+body.page-admin th.views-field-promote,
+body.page-admin th.views-field-sticky,
 body.page-admin th.views-field-edit-node,
 body.page-admin th.views-field-delete-node {
   text-align: center;
@@ -37,6 +60,8 @@ body.page-admin th.views-field-delete-node {
 
 body.page-admin td.views-field-tid,
 body.page-admin td.views-field-comment-count,
+body.page-admin td.views-field-promote,
+body.page-admin td.views-field-sticky,
 body.page-admin td.views-field-title,
 body.page-admin td.views-field-edit-node,
 body.page-admin td.views-field-delete-node {
@@ -44,7 +69,9 @@ body.page-admin td.views-field-delete-node {
 }
 
 body.page-admin td.views-field-tid,
-body.page-admin td.views-field-comment-count {
+body.page-admin td.views-field-comment-count,
+body.page-admin td.views-field-promote,
+body.page-admin td.views-field-sticky {
   text-align: center;
 }
 
